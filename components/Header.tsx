@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <nav className='w-full flex bg-black justify-between items-center gap-1 lg:px-16 px-6 py-3 sticky top-0 z-50'>
-      <Image src='/logo.png' width={90} height={90} className='invert' />
+      <Image src='/logo.png' alt='logo' width={90} height={90} className='invert' />
 
       <ul className='lg:flex justify-center items-center gap-10 hidden'>
         {
